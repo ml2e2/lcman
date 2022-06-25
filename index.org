@@ -1,0 +1,8 @@
+#+TITLE: Low Cost Manuals
+
+
+* How to get it?
+  Simply with
+  #+begin_example
+  wget ...
+  #+end_example
