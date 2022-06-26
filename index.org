@@ -1,8 +1,14 @@
 #+TITLE: Low Cost Manuals
 
 
-* How to get it?
+* GNU
   Simply with
   #+begin_example
   wget ...
   #+end_example
+
+* RFC
+
+** ID3
+
+   [[/id3v2.4.0-structure.txt][id3v2.4.0-structure.txt]]
