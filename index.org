@@ -1,5 +1,6 @@
 #+TITLE: Low Cost Manuals
-
+#+AUTHOR: LCMan Maintainers
+#+MACRO: static-prefix https://ml2e2.github.io/lcman
 
 * GNU
   Simply with
@@ -11,4 +12,6 @@
 
 ** ID3
 
-   [[/id3v2.4.0-structure.txt][id3v2.4.0-structure.txt]]
+*** ID3 2.4 Structure
+
+   [[./id3v2.4.0-structure.txt]]
