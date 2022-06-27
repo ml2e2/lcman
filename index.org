@@ -2,14 +2,253 @@
 #+AUTHOR: LCMan Maintainers
 #+MACRO: static-prefix https://ml2e2.github.io/lcman
 
+#+MACRO: outprog UNKOWN
+
+#+MACRO: ptxtdoc (eval (concat "[[./" $1 ".txt][View]]"))
+#+MACRO: apdfdoc (eval (concat "[[./" $1 ".pdf][View]]"))
+#+MACRO: htmldoc (eval (concat "[[./" $1 ".html][View]]"))
+ 
 * GNU
-  Simply with
-  #+begin_example
-  wget ...
-  #+end_example
+    :PROPERTIES:
+    :UNNUMBERED: toc
+    :END:
+** bash
 
+*** version 5.1
+
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-bash-5.1)}}}    
+      - In /PDF/ format:        {{{apdfdoc(gnu-bash-5.1)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-bash-5.1)}}}
+	
+** make
+
+*** version 4.3
+ 
+      - Manual
+	- In /Plain Text/ format: {{{ptxtdoc(gnu-make-4.3)}}}
+	- In /PDF/ format:        {{{apdfdoc(gnu-make-4.3)}}}
+	- In /HTML/ format:       {{{htmldoc(gnu-make-4.3)}}}
+
+** coreutils
+
+*** version 9.1
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-coreutils-9.1)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-coreutils-9.1)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-coreutils-9.1)}}}
+
+      	
+** grep
+
+*** version 3.7
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-grep-3.7)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-grep-3.7)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-grep-3.7)}}}
+      	
+** sed
+
+*** version 4.8
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-sed-4.8)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-sed-4.8)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-sed-4.8)}}}
+      	
+** wget
+
+*** version 1.21.1-dirty
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-wget-1.21.1-dirty)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-wget-1.21.1-dirty)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-wget-1.21.1-dirty)}}}
+      	
+** diffutils
+
+*** version 3.8
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-diffutils-3.8)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-diffutils-3.8)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-diffutils-3.8)}}}
+      	
+** tar
+
+*** version 1.34
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-tar-1.34)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-tar-1.34)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-tar-1.34)}}}
+      	
+** gzip
+
+*** version 1.12
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-gzip-1.12)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-gzip-1.12)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-gzip-1.12)}}}
+      	
+** automake
+
+*** version 1.16.5
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-automake-1.16.5)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-automake-1.16.5)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-automake-1.16.5)}}}
+
+      	
+** autoconf
+
+*** version 2.71
+    
+    - Manual
+      - In /Plain Text/ format: {{{ptxtdoc(gnu-autoconf-2.71)}}}
+      - In /PDF/ format:        {{{apdfdoc(gnu-autoconf-2.71)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-autoconf-2.71)}}}
+
+      	
+      	
+** as
+
+*** version 2.38
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-as-2.38)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-as-2.38)}}}       	
+      	
+** bfd
+
+*** version 3.0
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-bfd-3.0)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-bfd-3.0)}}}       	
+      	
+** binutils
+
+*** version 2.38
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-binutils-2.38)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-binutils-2.38)}}}       	
+      	      	
+      	
+** ld
+
+*** version 2.38
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-ld-2.38)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-ld-2.38)}}}
+	
+** gprof
+
+*** version 2.38
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gprof-2.38)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-gprof-2.38)}}}      
+
+
+
+    	
+** gprof
+
+*** version 2.38
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gprof-2.38)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-gprof-2.38)}}}      
+
+		
+** findutils
+
+*** version 4.9.0
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-findutils-4.9.0)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-findutils-4.9.0)}}}      
+
+
+ 		
+** gnupg
+
+*** version 2.3.3
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gnupg-2.3.3)}}}
+ 
+		
+** libc
+
+*** version 2.35
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-libc-2.35)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-libc-2.35)}}}      
+		
+** emacs
+
+*** version 28.1
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-emacs-28.1)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-emacs-28.1)}}}      
+
+		
+** gdb
+
+*** version 13.0.50.20220626-git
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gdb-13.0.50.20220626-git)}}}
+      - In /HTML/ format:       {{{htmldoc(gnu-gdb-13.0.50.20220626-git)}}}  	
+
+
+
+ 		
+** gcc
+
+*** version 11.3.0
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-11.3.0)}}}    
+    - CPP Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-11.3.0-cpp)}}}
+    - Go Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-11.3.0-gccgo)}}}
+    - libstdc++ Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-11.3.0-libstdc++-manual)}}}
+    - libstdc++ API
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-11.3.0-libstdc++-api)}}}
+ 
+*** version 8.5.0
+    
+    - Manual
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-8.5.0)}}}    
+    - CPP Manual 
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-8.5.0-cpp)}}}
+    - Go Manual	 
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-8.5.0-gccgo)}}}
+    - libstdc++ Manual	 
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-8.5.0-libstdc++-manual)}}}
+    - libstdc++ API 
+      - In /PDF/ format:        {{{apdfdoc(gnu-gcc-8.5.0-libstdc++-api)}}}
+ 
+		
+    
+    
 * RFC
-
+    :PROPERTIES:
+    :UNNUMBERED: toc
+    :END:
 ** ID3
 
 *** ID3 2.4 Structure
